@@ -6,4 +6,23 @@
     </style>
 
     <style name="Theme.Calci" parent="Base.Theme.Calci" />
+
+    <style name="greenbutton" parent="commonbutton">
+        <item name="backgroundTint">@color/green</item>
+    </style>
+
+    <style name="normalbutton" parent="commonbutton">
+        <item name="backgroundTint">@color/btcol</item>
+    </style>
+
+
+    <style name="commonbutton">
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">8dp</item>
+
+
+    </style>
 </resources>
