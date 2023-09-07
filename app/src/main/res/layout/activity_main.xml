@@ -9,30 +9,31 @@
 
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/datatv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
-        android:text="69+69"
+        android:text=""
 
         android:textAlignment="viewEnd"
         android:textColor="@color/white"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@id/textView2"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@id/resulttv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/resulttv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="15dp"
         android:text="120"
+        android:visibility="gone"
         android:textAlignment="viewEnd"
 
-        android:textColor="@color/white"
+        android:textColor="#92FFFFFF"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@id/verical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -292,7 +293,7 @@
                 android:id="@+id/equal"
 
                 style="@style/normalbutton"
-                android:backgroundTint="#5CBD8D"
+                android:backgroundTint="#489A55"
                 android:onClick="equal"
                 android:text="="
                 android:textColor="@color/white">
